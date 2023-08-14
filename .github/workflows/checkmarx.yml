@@ -35,8 +35,10 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v3     
-
+    - name: Run ls
+      run: |
+          ls -la
     - name: Build Docker image
-      run: echo ls -la && docker build -t satyamimage -f /cxflow/Dockerfile .
+      run: docker build -t satyamimage -f /cxflow/Dockerfile .
     - name: Run Docker container
       run: docker run -it satyamImage 
