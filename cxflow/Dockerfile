@@ -6,7 +6,7 @@ RUN mkdir -p sourcecode
 
 COPY cxflow/scripts/keytool-import-certs.sh /app/keytool-import-certs.sh
 COPY certificate/checkmarx.crt /app/certificate.crt
-COPY *.* /sourcecode/
+COPY . /sourcecode/
 
 RUN chmod +x /app/certificate.crt
 RUN chmod +x /app/keytool-import-certs.sh
