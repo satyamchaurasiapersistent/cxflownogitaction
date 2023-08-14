@@ -4,6 +4,14 @@ ls -la
 cd sourcecode
 ls -la
 
+cd..
+ls -la
+
+cd ..
+ls -la
+cd sourcecode
+ls -la
+
 
 # import custom certificates into java cacerts keystore
 if [ -n "$EXTRA_CERTIFICATES" ]
