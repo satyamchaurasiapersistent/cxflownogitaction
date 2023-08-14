@@ -1,15 +1,5 @@
 #!/bin/sh
-ls -la
-
-cd sourcecode
-ls -la
-
-cd ..
-ls -la
-
-cd ..
-ls -la
-cd sourcecode
+cd /actions-runner/_work/cxflownogitaction/cxflownogitaction
 ls -la
 
 
