@@ -1,11 +1,11 @@
 #!/bin/sh
-echo ls -la
+ls -la
 
 cd ..
 cd ..
 cd ..
 cd /sourcecode
-echo ls -la
+ls -la
 
 # import custom certificates into java cacerts keystore
 if [ -n "$EXTRA_CERTIFICATES" ]
