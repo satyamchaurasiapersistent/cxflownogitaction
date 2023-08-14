@@ -2,8 +2,14 @@
 ls -la
 
 cd ..
+ls -la
+
 cd ..
+ls -la
+
 cd ..
+ls -la
+
 cd /sourcecode
 ls -la
 
