@@ -10,7 +10,7 @@ COPY . /app/sourcecode
 
 RUN chmod +x /app/certificate.crt
 RUN chmod +x /app/keytool-import-certs.sh
-RUN chmod +x /sourcecode
+RUN chmod +x /app/sourcecode
 
 
 COPY cxflow/entrypoint.sh /app/entrypoint.sh
