@@ -4,7 +4,7 @@ ls -la
 cd sourcecode
 ls -la
 
-cd..
+cd ..
 ls -la
 
 cd ..
